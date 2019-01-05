@@ -1,0 +1,16 @@
+Wrap up.
+The steps to get your thumbnail into the gist aren't exactly point and click, but the steps you need to take are fairly easy to follow. As promised, here is the abridged list of steps that will avoid you going through the several previous pages.
+Create your public gist on https://gist.github.com/
+Get an image ready (230 x 120 pixels, named thumbnail.png)
+Under "Clone this gist", copy the link (i.e., https://gist.github.com/4414436.git)
+If you have the command line git tools (Git Shell), clone this gist to a local folder:
+git clone https://gist.github.com/4414436.git (or git clone git@gist.github.com:4414436.git  for OSX)
+It will add a folder with the gist id as a name (i.e., 4414436) under the current working directory.
+Navigate to this folder via the command line in Git Shell: cd 4414436 (dir 4414436 on windows)
+Navigate to this folder in file explorer and add your image (i.e., thumbnail.png)
+Add it to git from the command line: git add test.png
+Commit it to git: git commit -m "Thumbnail added"
+Push this commit to your remote gist (you may need your Github user name and password):
+git push
+Go back and refresh your Gist on https://gist.github.com/ to confirm that it worked
+Check your blocks home page and see if it's there too. http://bl.ocks.org/<yourusername>
