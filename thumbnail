@@ -1,4 +1,7 @@
-Wrap up.
+Create a gist of the file(s). must name the html file, index.html and must make it public.  
+The gist is viewable in bl.ocks by copying the gist and changing the gist part to bl.ocks.org 
+
+Create a thumnail for bl.ocks - these are the steps
 The steps to get your thumbnail into the gist aren't exactly point and click, but the steps you need to take are fairly easy to follow. As promised, here is the abridged list of steps that will avoid you going through the several previous pages.
 Create your public gist on https://gist.github.com/
 Get an image ready (230 x 120 pixels, named thumbnail.png)
@@ -14,3 +17,4 @@ Push this commit to your remote gist (you may need your Github user name and pas
 git push
 Go back and refresh your Gist on https://gist.github.com/ to confirm that it worked
 Check your blocks home page and see if it's there too. http://bl.ocks.org/<yourusername>
+source directions: http://www.d3noob.org/2012/12/loading-thumbnail-into-gist-for.html
